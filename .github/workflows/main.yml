@@ -36,4 +36,4 @@ jobs:
       run: npm run build
     
     - name: Deploy project
-      run: surge ./build expense_tracker_obaid.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./build expensetracker_app_obaid.surge.sh --token ${{ secrets.SURGE_TOKEN }}
